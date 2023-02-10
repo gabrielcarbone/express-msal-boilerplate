@@ -1,0 +1,21 @@
+{
+  "name": "expresss-msal-boilerplate",
+  "version": "1.0.0",
+  "description": "Sample app for msal-node and express",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./index.js",
+    "format": "prettier --no-error-on-unmatched-pattern --list-different --write **/*.{ts,tsx,js,jsx,scss,yml,html,json,md}"
+  },
+  "author": "Sy Le",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/msal-node": "^1.15.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}
